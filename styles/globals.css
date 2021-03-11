@@ -15,6 +15,17 @@ a {
   box-sizing: border-box;
 }
 
+.nav-container {
+  background-color: rgba(255, 255, 255, 0.911961);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  height: 50px;
+  width: 100%;
+  z-index: 9999;
+}
+
 .hero-image {
   position: fixed;
   height: 100vh;

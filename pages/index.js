@@ -1,6 +1,6 @@
 import Head from "next/head";
 import FullScreenRespBackground from "../components/FullScreenRespBackground";
-import styles from "../styles/Home.module.css";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
         <title>roger-rossell.com</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Nav />
       <FullScreenRespBackground image="image.jpg" />
     </div>
   );
